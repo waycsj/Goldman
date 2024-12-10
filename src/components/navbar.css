@@ -1,0 +1,59 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navWrapper {
+  padding: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navleft{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navLanguage {
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.navSearchContainer {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.navInput {
+  border: none;
+}
+
+.navInput:focus {
+  outline: none;
+}
+
+.navCenter {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navMenuItem {
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 20px;
+}
