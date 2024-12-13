@@ -1,0 +1,23 @@
+.product {
+  flex: 1;
+  margin: 5px;
+  flex-basis: 280px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+}
+
+.productImg {
+  height: 75%;
+  object-fit: cover;
+}
